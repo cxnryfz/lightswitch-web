@@ -1,0 +1,1 @@
+smcalc.app | smart and good calculator for math and school | if its your first time using it will ask for a secret code and then you click done and then it will show the calc (extremely good ui) and if you type that secret code you can see the Android lookalike ui and it will have apps
