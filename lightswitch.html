@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LightSwitch</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="x-frame-bypass.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="chrome-toolbar">
+      <div class="tab">
+        <span class="tab-title">New Tab</span>
+      </div>
+      <div class="new-tab-button">+</div>
+    </div>
+    <div class="address-bar">
+      <div class="nav-controls">
+        <button class="nav-button back">‹</button>
+        <button class="nav-button forward">›</button>
+        <button class="nav-button reload">↻</button>
+      </div>
+      <div class="url-bar">
+        <div class="site-info">🔒</div>
+        <input type="text" id="searchInput" placeholder="Search LightSwitch or type a URL">
+      </div>
+      <div class="toolbar-actions">
+        <div class="switch">
+          <input type="checkbox" id="lightSwitch">
+          <label for="lightSwitch"></label>
+        </div>
+      </div>
+    </div>
+    <div class="frame-container">
+      <iframe is="x-frame-bypass" id="contentFrame"></iframe>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
